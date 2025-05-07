@@ -6,40 +6,115 @@
     <title>Document</title>
 </head>
 <body>
+    <h2>Formulário de Cotação Online de Seguro Gerais</h2>
+    <p>Por favor,preencha o Formulário de Cotação Online de Seguro Geral para obter a cotação de seguro desejada. Selecione as opções que mais combinam com as suas necessidades e você será contactado por um dos membros de nosso time. As informações fornecidas neste formulário de cotação de seguro geral não serão tornadas públicas. </p>
 <form>
-    <label for="nome">Nome</label>
+    <label for="nome">Nome*</label><br>
     <input type="text" id="nome" autofocus>
     <br><br>
 
-    <<label for="email">Email</label>
+    <label for="data">Data de Nascimento*</label><br>
+    <input type="date" name="aniversario" id="aniversario" required>
+    <br><br>
+
+    <label for="email">Email*</label><br>
     <input type="email" id="email" placeholder="teste@teste.com">
     <br><br>
 
-    <label for="numero">Número</label>
-    <input type="number" id="numero" min="5" max="10" step="2">
+    <label for="ocupacao">Ocupaçâo*</label><br>
+    <input type="text" name="ocupação" id="ocupação">
     <br><br>
 
-    <label for="url">Url</label>
-    <input type="url" id="url"placeholder="ex: http://" required >
+    <label>Eu estou interessado no(s) seguinte(s) tipos(s) de seguro:</label><br>
+    <input type="checkbox" name="seguro" id="vida">
+    <label for="caixa">Seguro de vida</label>
+
+    <input type="checkbox" name="seguro" id="saude">
+    <label for="caixa">Seguro de saúde</label>
+
+    <input type="checkbox" name="seguro" id="saude">
+    <label for="caixa">Seguro de casa</label>
+
+    <input type="checkbox" name="seguro" id="saude">
+    <label for="caixa">Seguro de carro</label>
+
+    <input type="checkbox" name="seguro" id="saude">
+    <label for="caixa">Seguro de hipoteca</label>
+
+    <input type="checkbox" name="seguro" id="saude">
+    <label for="caixa">Seguro de empresa</label>
+
+    <input type="checkbox" name="seguro" id="saude">
+    <label for="caixa">Seguro de invalidez</label>
+
+    <input type="checkbox" name="seguro" id="saude">
+    <label for="caixa">Seguro de crédito</label>
+
+    <input type="checkbox" name="seguro" id="saude">
+    <label for="caixa">Seguro de responsabilidade</label>
+
+    <input type="checkbox" name="seguro" id="saude">
+    <label for="caixa">Seguro de criança</label>
     <br><br>
 
-    <label for="pesquisar">Pesquisar</label>
-    <input type="search" id="pesquisar" placeholder="digite algo">
+    <label>Qual(is) tipo(s) de seguro você possui atualmente?</label><br>
+    <input type="checkbox" name="seguro" id="vida">
+    <label for="caixa">Seguro de vida</label>
+
+    <input type="checkbox" name="seguro" id="saude">
+    <label for="caixa">Seguro de saúde</label>
+
+    <input type="checkbox" name="seguro" id="saude">
+    <label for="caixa">Seguro de casa</label>
+
+    <input type="checkbox" name="seguro" id="saude">
+    <label for="caixa">Seguro de carro</label>
+
+    <input type="checkbox" name="seguro" id="saude">
+    <label for="caixa">Seguro de hipoteca</label>
+
+    <input type="checkbox" name="seguro" id="saude">
+    <label for="caixa">Seguro de empresa</label>
+
+    <input type="checkbox" name="seguro" id="saude">
+    <label for="caixa">Seguro de invalidez</label>
+
+    <input type="checkbox" name="seguro" id="saude">
+    <label for="caixa">Seguro de crédito</label>
+
+    <input type="checkbox" name="seguro" id="saude">
+    <label for="caixa">Seguro de responsabilidade</label>
+
+    <input type="checkbox" name="seguro" id="saude">
+    <label for="caixa">Seguro de criança</label>
     <br><br>
 
-    <label for="range">Range</label>
-    <input type="range" id="range" min="1" max="10" value="5">
+    <label for="expira">Quando o seu seguro expira?</label><br>
+    <input type="date" name="expira" id="ex">
+    <br><br>
+    <label for="mudar">O quanto você está disposto a mudar o seu agente de seguro?</label><br>
+    <input type="radio" name="extre" id="disposto">
+    <label for="extremamente">Extermamente disposto</label>
+
+    <input type="radio" name="extre" id="disposto">
+    <label for="extremamente">Muito disposto</label>
+
+    <input type="radio" name="extre" id="disposto">
+    <label for="extremamente">Moderadamente disposto</label>
+
+    <input type="radio" name="extre" id="disposto">
+    <label for="extremamente">Pouco disposto</label>
+
+    <input type="radio" name="extre" id="disposto">
+    <label for="extremamente">Não estou disposto</label>
     <br><br>
 
-    <label for="data">Data</label>
-    <input type="data" id="data">
+    <label for="quanto">O quanto você está disposto a gastar em um seguro mensal?</label><br>
+    <input type="text" name="quanto " id="br" placeholder="BRL 0.00">
     <br><br>
 
-    <label for="cor">Cor</label>
-    <input type="cor" id="cor" >
-    <br><br>
-    <input type="submit" name="enviar" value="Enviar">
-    <input type="reset" name="limpar" value="Limpar">
+    <input type="submit" name="enviar" value="Obtenha sua cotação de seguro"><br>
+    
 
 </form>
 </body>
